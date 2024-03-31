@@ -1,0 +1,214 @@
+/* Navbar background and text color */
+.navbar-custom {
+    background-color: #0c533a !important;
+    color: #fdfdfd!important;
+}
+
+body {
+    background-color: #5CE5B4;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-right{
+    margin-left: 300px;
+    margin-top: 0px;
+    
+}
+.navbar-left {
+    display: flex;
+    align-items: center;
+}
+.navbar {
+    padding: 15px 0;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    background-color: #5CE5B4; 
+    box-shadow: 0 1px 100px #0c533ac5;
+    margin-top: 50px;
+}
+
+
+/* Update the background color for the entire page */
+body {
+    width: 100%;
+    height: 100%;
+    background-color:#0c533a; 
+    margin: 0; 
+    font-family: Arial, sans-serif; 
+}
+
+
+.navbar a {
+    text-decoration: none;
+    color: white;
+    margin-right: 20px;
+    margin-left: 30px;
+}
+
+
+.navbar-brand {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.navbar-nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+}
+
+.nav-item {
+    display: inline;
+    transform: translateY(0); 
+    transition: transform 0.5s ease;
+    color: white;
+    
+    
+}
+.nav-item:hover
+{
+    transform: translateY(-5px); 
+    color: aqua;
+
+}
+
+.spacer {
+    flex-grow: 1;
+*{
+    margin: 10;
+    padding: 10;
+    margin-left: auto;
+    margin-right: auto;
+    box-sizing: border-box;
+
+}
+}
+
+@font-face {
+    font-family:"rubik";
+    src: url("rubik.ttf") format("truetype");
+  }
+.name_text
+{
+    color: rgb(0, 0, 0);
+    font:inherit;
+    font-family: rubik;
+    font-size: xxx-large;
+    transform: translateY(0); 
+    transition: transform 0.5s ease;
+    
+}
+.name_w_text
+{
+    color: rgb(255, 255, 255);
+    font:inherit;
+    font-family: rubik;
+    font-size: xxx-large;
+    transform: translateY(0); 
+    transition: transform 0.5s ease;
+}
+.name_text:hover
+{
+    text-shadow: 0px 4px rgba(230, 11, 11, 0.822);
+    transform: translateY(-5px); 
+
+}
+
+.name_w_text:hover
+{
+    text-shadow: 0px 4px rgba(230, 11, 11, 0.822);
+    transform: translateY(-5px); 
+    
+}
+@font-face {
+    font-family:"Lemon";
+    src: url("Lemon.ttf") format("truetype");
+  }
+.info_text
+{
+    color:#127451;
+    font:inherit;
+    font-family: Lemon;
+    font-size:larger
+}
+
+
+
+img 
+{
+    border: 2px solid #ddd;
+    border-radius: 400px;
+    padding: 5px;
+    
+    max-width: fit-content;
+    margin: 40px;
+
+
+    transform: translateY(0); 
+    transition: transform 0.5s ease;   
+}
+  
+img:hover 
+{
+    box-shadow: 0 0 50px 20px rgba(6, 90, 48, 0.3);
+    transform: translateY(-15px); 
+}
+
+
+/* Container for the white section content */
+.container5 {
+    max-width: auto; /* Adjust maximum width as needed */
+    margin: auto; /* Center the container horizontally */
+    padding: 50px 20px; /* Add some spacing to the sides */
+    background-color:  #1b1b1f;
+    text-align: right;
+    padding-right: 40px;
+
+
+    
+}
+
+.container4 {
+    max-width: auto; /* Adjust maximum width as needed */
+    margin: auto; /* Center the container horizontally */
+    padding: 50px 20px; /* Add some spacing to the sides */
+    background-color:  #1b1b1f;
+    text-align: right;
+    padding-right: 40px;
+    max-height: fit-content;
+    min-height: fit-content;
+
+    
+}
+
+.container6 {
+    max-width: auto; /* Adjust maximum width as needed */
+    margin: auto; /* Center the container horizontally */
+    padding: 50px 20px; /* Add some spacing to the sides */
+    background-color: #fdfdfd;
+    text-align: left;
+    padding-left: 20px;
+
+
+    
+}
+
+
+.center_text
+{
+    max-width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.center
+{
+    max-width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    padding: auto;
+}

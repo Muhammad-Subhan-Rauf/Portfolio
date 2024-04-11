@@ -1,7 +1,7 @@
 .error-text {
   font: 300 18px 'Lato', sans-serif;
   letter-spacing: 1.9px;
-  color: #bbb;
+  color: #000000;
 }
 
 
@@ -34,7 +34,7 @@
   --slice-4: inset(40% -6px 43% 0);
   --slice-5: inset(80% -6px 5% 0);
   
-  content: 'ALTERNATE TEXT';
+  content: 'DOWNLOAD';
   display: block;
   position: absolute;
   top: 0;

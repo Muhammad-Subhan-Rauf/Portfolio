@@ -133,7 +133,8 @@ body {
     color:#127451;
     font:inherit;
     font-family: Lemon;
-    font-size:larger
+    font-size:larger;
+    text-align: justify;
 }
 
 
@@ -212,4 +213,12 @@ img:hover
     margin-left: auto;
     margin-right: auto;
     padding: auto;
+}
+
+.just_text
+{
+    max-width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: justify;
 }

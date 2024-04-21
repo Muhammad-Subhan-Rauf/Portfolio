@@ -79,6 +79,11 @@ textarea {
 .list-item {
   line-height: 4;
   color: #aaa;
+  transition: transform 0.5s ease;
+
+}
+.list-item:hover{
+  transform: translateY(-5px);
 }
 
 .contact-text {

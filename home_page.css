@@ -125,14 +125,14 @@ body {
     
 }
 @font-face {
-    font-family:"Lemon";
-    src: url("Lemon.ttf") format("truetype");
+    font-family:"Panton";
+    src: url("Panton.otf") format("truetype");
   }
 .info_text
 {
     color:#127451;
     font:inherit;
-    font-family: Lemon;
+    font-family: Panton;
     font-size:larger;
     text-align: center;
 }

@@ -89,27 +89,29 @@ body {
 }
 
 @font-face {
-    font-family:"rubik";
-    src: url("rubik.ttf") format("truetype");
+    font-family:"Titillium-web";
+    src: url("TitilliumWeb-Black.ttf") format("truetype");
   }
 .name_text
 {
     color: rgb(0, 0, 0);
     font:inherit;
-    font-family: rubik;
-    font-size: xxx-large;
+    font-family:"Titillium-web";
+    font-size: 3rem;
     transform: translateY(0); 
     transition: transform 0.5s ease;
+    text-align: center;
     
 }
 .name_w_text
 {
     color: rgb(255, 255, 255);
     font:inherit;
-    font-family: rubik;
-    font-size: xxx-large;
+    font-family:"Titillium-web";
+    font-size: 3rem;
     transform: translateY(0); 
     transition: transform 0.5s ease;
+    text-align: center;
 }
 .name_text:hover
 {

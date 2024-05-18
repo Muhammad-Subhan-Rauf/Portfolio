@@ -1,14 +1,9 @@
 /* Navbar background and text color */
 .navbar-custom {
-    background-color: #0c533a !important;
+    background-color: #045083 !important;
     color: #fdfdfd!important;
 }
 
-body {
-    background-color: #5CE5B4;
-    margin: 0;
-    padding: 0;
-}
 
 .navbar-right{
     margin-left: 300px;
@@ -24,8 +19,8 @@ body {
     color: white;
     display: flex;
     justify-content: space-between;
-    background-color: #5CE5B4; 
-    box-shadow: 0 1px 100px #0c533ac5;
+    background-color: #045083; 
+    box-shadow: 0 1px 100px #045083;
     margin-top: 50px;
 }
 
@@ -34,7 +29,7 @@ body {
 body {
     width: 100%;
     height: 100%;
-    background-color:#0c533a; 
+    background-color: #045083; 
     margin: 0; 
     font-family: Arial, sans-serif; 
 }
@@ -132,7 +127,7 @@ body {
   }
 .info_text
 {
-    color:#127451;
+    color:#0099ff;
     font:inherit;
     font-family: Panton;
     font-size:larger;
